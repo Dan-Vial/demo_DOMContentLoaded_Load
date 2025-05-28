@@ -18,8 +18,8 @@ Cette démonstration HTML illustre clairement la différence entre les événeme
 3. Une fois **`load`** déclenché :
    - On affiche un message `✅ Tout est chargé (load)`.
 
-
-![video](demo.mp4)
+<!-- ![video](demo.mp4) -->
+<video src="demo.mp4" controls></video>
 
 ## ▶️ Pour tester
 
