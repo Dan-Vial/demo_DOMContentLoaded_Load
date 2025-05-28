@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Load / DOMContentLoaded</title>
+  <script type="module" src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Démonstration réaliste : DOM puis Load</h1>
+
+  <div id="dom-ready"></div>
+  <div id="dom-demo"></div>
+  <div id="fully-loaded">✅ Tout est chargé (load)</div>
+
+  <!-- Image lourde simulant un vrai chargement -->
+  <img src="https://www.placebear.com/g/9000/7000" alt="Image lente" loading="eager" />
+
+  <div id="content">
+    <p>Ce contenu devient visible après la fin du chargement complet.</p>
+  </div>
+</body>
+
+</html>
